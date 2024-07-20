@@ -1,21 +1,38 @@
 .nav {
   display: flex;
   justify-content: center;
-  margin: 20px;
   align-items: center;
+  margin: 20px;
 
   &-section-shipment {
+    align-items: center;
+    justify-content: center;
     &_button {
       background-color: transparent;
       border: none;
+      padding: 4px;
+
       &:hover {
-        background-color: rgba(147, 147, 147, 0.2);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      &_text {
+        display: inline-block;
+
+        &-shipment_line1 {
+          font-size: 14px;
+          color: rgb(3, 3, 3, 0.6);
+        }
+        &-shipment_line2 {
+          font-size: 18px;
+        }
       }
     }
   }
 
   &-section_details {
     margin: 0px 14rem 0 4rem;
+
     &-list {
       display: flex;
       list-style-type: none;
@@ -23,9 +40,9 @@
       margin: 0;
 
       &_item {
+        margin-right: 20px;
         text-decoration: none;
         color: black;
-        margin-right: 20px;
       }
     }
   }
@@ -36,9 +53,9 @@
       list-style-type: none;
       align-items: center;
       &_item {
+        margin-right: 20px;
         text-decoration: none;
         color: black;
-        margin-right: 20px;
       }
     }
   }

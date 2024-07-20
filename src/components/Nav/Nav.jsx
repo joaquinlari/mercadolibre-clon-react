@@ -7,9 +7,12 @@ const Nav = () => {
             <nav className="nav">
                 <div className="nav-section-shipment">
                     <button className="nav-section-shipment_button">
-                        <a>Enviar a Capital Federal</a>
+                        <img src="src\assets\map-point-com.svg"></img>
+                        <a className="nav-section-shipment_button_text">
+                            <span className="nav-section-shipment_button_text-shipment_line1">Enviar a</span><br />
+                            <span className="nav-section-shipment_button_text-shipment_line2">Capital Federal</span>
+                        </a>
                     </button>
-
                 </div>
                 <div className="nav-section_details">
                     <ul className="nav-section_details-list">
