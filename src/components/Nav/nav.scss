@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+
+  &-section-shipment {
+    &_button {
+      background-color: transparent;
+      border: none;
+      &:hover {
+        background-color: rgba(147, 147, 147, 0.2);
+      }
+    }
+  }
+
+  &-section_details {
+    margin: 0px 14rem 0 4rem;
+    &-list {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      &_item {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &-section_user {
+    &-list {
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      &_item {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -10,7 +10,6 @@ function App() {
         <header>
           <Header />
         </header>
-        <nav></nav>
         <article>
           <section></section>
         </article>

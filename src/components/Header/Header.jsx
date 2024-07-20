@@ -1,4 +1,5 @@
 import React from "react"
+import Nav from "../Nav/Nav"
 import './header.scss'
 
 const Header = () => {
@@ -13,17 +14,17 @@ const Header = () => {
                             placeholder="Buscar productos,marcas y más...">
                         </input>
                         <button className="header-search-nav_button">
-                            <img className="icon-svg"
-                                src="src\assets\search-svgrepo-com.svg" />
+                            <img className="nav-icon-search"
+                                src="src\assets\search-svgrepo-com.svg"
+                            />
                         </button>
                     </div>
                     <a href="#"><img className="header-search-img2" src="src\assets\disney.webp" /></a>
                 </div>
                 <div>
-
+                    <Nav />
                 </div>
             </header>
-
         </>
     )
 }

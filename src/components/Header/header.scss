@@ -1,13 +1,21 @@
+body {
+  font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif,
+    sans-serif;
+}
+
 .header {
   background-color: #ffe600;
-  display: flex;
   height: 8.6rem;
   align-items: center;
+  padding: 12px;
 
   &-search {
     display: flex;
-    width: 100%;
+    width: 50%;
+    height: 50px;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 
     &-img {
       width: 10.625rem;
@@ -25,21 +33,33 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      margin: 0 3rem;
+      height: 100%;
 
       &_input {
         width: 45rem;
         outline: none;
         border: none;
-        padding: 0.8rem;
+        padding: 10px 60px 10px 15px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+        font-size: 18px;
+        letter-spacing: 0.6px;
+        font-family: inherit;
+        font-weight: 100;
       }
 
       &_button {
         background-color: white;
         border: none;
-        transform: translateX(-70%);
+        transform: translateX(-100%);
         padding: 0 0.8rem;
-        border-left: 1px solid gray;
-        .icon-svg {
+        border-left: 1px solid rgba(137, 137, 137, 0.3);
+
+        &:hover {
+          background-color: rgb(193, 193, 193, 0.2);
+        }
+        .nav-icon-search {
           cursor: pointer;
         }
       }
