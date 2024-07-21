@@ -12,13 +12,18 @@ const Carousel = ({ data }) => {
     const prevSlide = () => {
         setSlide(slide === 0 ? data.length - 1 : slide - 1)
     }
+
+    setInterval(nextSlide, 3000);
+
     return (
         <>
             <div className="carousel">
                 <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
-                {data.map((item, idx) => {
-                    return <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide-hidden"} />
-                })}
+                <div className="borrar">
+                    {data.map((item, idx) => {
+                        return <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide-fade-in" : "slide-hidden"} />
+                    })}
+                </div>
                 <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide} />
                 <span className="indicators">
                     {data.map((_, idx) => {
@@ -28,7 +33,10 @@ const Carousel = ({ data }) => {
             </div>
         </>
     )
+
 }
+
+
 
 Carousel.propTypes = {
     data: PropTypes.arrayOf(

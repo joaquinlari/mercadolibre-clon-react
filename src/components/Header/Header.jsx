@@ -15,7 +15,7 @@ const Header = () => {
                         </input>
                         <button className="header-search-nav_button">
                             <img className="nav-icon-search"
-                                src="src\assets\search-svgrepo-com.svg"
+                                src="src\assets\svg\search-svgrepo-com.svg"
                             />
                         </button>
                     </div>

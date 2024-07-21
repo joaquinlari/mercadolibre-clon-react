@@ -7,7 +7,7 @@ const Nav = () => {
             <nav className="nav">
                 <div className="nav-section-shipment">
                     <button className="nav-section-shipment_button">
-                        <img src="src\assets\map-point-com.svg"></img>
+                        <img src="src\assets\svg\map-point-com.svg"></img>
                         <a className="nav-section-shipment_button_text">
                             <span className="nav-section-shipment_button_text-shipment_line1">Enviar a</span><br />
                             <span className="nav-section-shipment_button_text-shipment_line2">Capital Federal</span>
@@ -33,7 +33,7 @@ const Nav = () => {
                         <li className="nav-section_user-list_item">Mis compras</li>
                         <li className="nav-section_user-list_item">
                             <a href="#">
-                                <img className="nav-icon-cart" src="src\assets\shopping-cart-svgrepo-com.svg" />
+                                <img className="nav-icon-cart" src="src\assets\svg\shopping-cart-svgrepo-com.svg" />
                             </a>
                         </li>
                     </ul>

@@ -1,35 +1,35 @@
 {
   "slides": [
     {
-      "src": "src/assets/hero1.webp",
+      "src": "src/assets/hero/hero1.webp",
       "alt": "hero1"
     },
     {
-      "src": "src/assets/hero2.webp",
+      "src": "src/assets/hero/hero2.webp",
       "alt": "hero2"
     },
     {
-      "src": "src/assets/hero3.webp",
+      "src": "src/assets/hero/hero3.webp",
       "alt": "hero3"
     },
     {
-      "src": "src/assets/hero4.webp",
+      "src": "src/assets/hero/hero4.webp",
       "alt": "hero4"
     },
     {
-      "src": "src/assets/hero5.webp",
+      "src": "src/assets/hero/hero5.webp",
       "alt": "hero5"
     },
     {
-      "src": "src/assets/hero6.webp",
+      "src": "src/assets/hero/hero6.webp",
       "alt": "hero6"
     },
     {
-      "src": "src/assets/hero7.webp",
+      "src": "src/assets/hero/hero7.webp",
       "alt": "hero7"
     },
     {
-      "src": "src/assets/hero8.webp",
+      "src": "src/assets/hero/hero8.webp",
       "alt": "hero8"
     }
   ]
