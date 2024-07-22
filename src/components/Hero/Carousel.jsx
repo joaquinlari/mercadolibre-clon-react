@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
 import './carousel.scss'
@@ -13,7 +13,10 @@ const Carousel = ({ data }) => {
         setSlide(slide === 0 ? data.length - 1 : slide - 1)
     }
 
-    setInterval(nextSlide, 3000);
+    useEffect(() => {
+        const interval = setInterval(nextSlide, 3000);
+        return () => clearInterval(interval);
+    }, [slide]);
 
     return (
         <>
